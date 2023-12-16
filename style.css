@@ -1,6 +1,128 @@
-* {
-    font-family: 'Arial';
+body {
+    width: 1140px;
+    margin: auto;
+    background-color: whitesmoke;
+    color: #18191a;
+}
+header {
+    width: 100%;
+    display: flex;
+    margin: 25px 10px;
+}
+h1 {
+    text-align: left;
+    border-left: 5px solid;
+    border-bottom: 3px solid;
+    border-radius: 20px 0 0 20px;
+    border-color: brown;
+    padding: 10px;
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+h2 {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 100%;
+}
+.container {
+    display: flex;
+}
+.frame {
+    background-color: #fff;
+    border: 3px solid burlywood;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 25px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+.frame:first-child {
+    width: 100%;
+}
+.first_color, .second_color, .third_color {
+    height: 25px;
+    border-radius: 50% 25%;
+    margin: 0 25px;
+    padding: 50px;
+    width: auto;
+}
+#circle_text {
+    color: #fff;
+}
+p span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first_color {
+    background-color: #71bd50;
+}
+.second_color {
+    background-color: #ec501d;
+}
+.third_color {
+    background-color: #1d97ec;
+}
+#colors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fonts {
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    align-items: center;
+}
+.helvetica {
+    font-family: Helvetica;
+}
+.helvetica .regular {
+    font-weight: 400;
+}
+.helvetica .bold {
+    font-weight: 700;
+}
+
+.comic {
+    font-family: 'Comic Sans';
+}
+.comic .regular {
+    font-weight: 400;
+}
+.comic .bold {
+    font-weight: 700;
+}
+.georgia {
+    font-family: Georgia;
+}
+.georgia .regular {
+    font-weight: 400;
+}
+.georgia .bold {
+    font-weight: 700;
 }
 footer {
-    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    padding: 10px 0;
+    background-color: brown;
+}
+.copyright {
+    color: #fff;
+}
+.copyright a {
+    color:#18191a;
+    text-decoration: none;
+    font-weight: 600;
 }

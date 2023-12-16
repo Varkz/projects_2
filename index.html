@@ -1,33 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Guide Page for Dev</title>
-        <link href="projects_2/style.css" rel="stylesheet" type="text/css">
-    </head>
-    <body>
-        <header>
-            <h1>It can help you to style the page</h1>
-        </header>
-        <main>
-            <article>
-                <!-- used colors -->
-            </article>
-            <article>
-                <!-- used fonts -->
-            </article>
-            <article>
-                <!-- used text styles -->
-            </article>
-            <article>
-                <!-- used buttons and frames -->
-            </article>
-        </main>
-        <footer>
-            <div>
-                <p>Designed & built by <a href="https://powiec.me">POWIEC</a></p>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide Page for Dev</title>
+    <link href="/projects_2/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <h1>It can help you to style the page</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="frame">
+                <h2>Colors</h2>
+                <div id="colors">
+                    <p id="circle_text" class="first_color">#71BD50<span> Green</span></p>
+                    <p id="circle_text" class="second_color">#EC501D<span> Orange</span></p>
+                    <p id="circle_text" class="third_color">#1D97EC<span> Blue</span></p>
+                </div>
             </div>
-        </footer>
-    </body>
+        </div>
+        <div class="container">
+            <div class="frame">
+                <h2>Fonts</h2>
+                <div id="fonts">
+                    <div class="helvetica">
+                        <h3>Helvetica</h3>
+                        <p class="regular">Some heading text</p>
+                        <p><em>Some heading text</em></p>
+                        <p class="bold">Some heading text</p>
+                    </div>
+                    <div class="comic">
+                        <h3>Comic Sans</h3>
+                        <p class="regular">Some paragraph text</p>
+                        <p><em>Some paragraph text</em></p>
+                        <p class="bold">Some paragraph text</p>
+                    </div>
+                    <div class="georgia">
+                        <h3>Georgia</h3>
+                        <p class="regular">Some nav text</p>
+                        <p><em>Some nav text</em></p>
+                        <p class="bold">Some nav text</p>
+                    </div>
+                </div>
+            </div>
+            <div class="frame">
+                <h2>Text styles</h2>
+                <div>
+                    <p>Heading</p>
+                    <ul>
+                        <li>Font weight: 700</li>
+                        <li>Font-size: 32px</li>
+                        <li>Font-family: Helvetica</li>
+                        <li>Text transform: uppercase</li>
+                    </ul>
+                </div>
+                <div>
+                    <p>Paragraph text</p>
+                    <ul>
+                        <li>Font weight: 400</li>
+                        <li>Font-size: 16px</li>
+                        <li>Font family: Comic Sans</li>
+                        <li>Text transform: none</li>
+                    </ul>
+                </div>
+                <div>
+                    <p>Menu items</p>
+                    <ul>
+                        <li>Font weight: 600</li>
+                        <li>Font size: 18px</li>
+                        <li>Font-family: Georgia</li>
+                        <li>Text transform: underline</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p class="copyright">Designed & built by <a href="https://powiec.me">POWIEC</a></p>
+        </div>
+    </footer>
+</body>
+
 </html>
